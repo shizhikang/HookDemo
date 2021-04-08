@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+dependencies {
+    //apt
+    implementation 'com.google.auto.service:auto-service:1.0-rc2'
+//    compile files("C:\\Program Files\\Java\\jre7\\lib\\rt.jar")
+}
+sourceCompatibility = 1.8
+sourceCompatibility = 1.8

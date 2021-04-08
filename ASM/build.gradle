@@ -1,0 +1,23 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+dependencies {
+    compile gradleApi()
+    compile localGroovy() //groovy sdk
+    compile 'com.android.tools.build:gradle:3.0.0'
+}
+repositories {
+    jcenter()
+    google()
+
+}
+//发布到本地
+uploadArchives {
+    repositories.mavenDeployer {
+        name = 'mavenCentralReleaseDeployer'
+        repository(url: uri("${rootProject.projectDir}/repo"))
+        pom.groupId = 'com.example.asm'  //groupId ，自行定义，一般是包名
+        pom.artifactId = 'ASM' //artifactId ，自行定义
+        pom.version = '1.0.0' //version 版本号
+        pom.name = "ASM"
+    }
+}

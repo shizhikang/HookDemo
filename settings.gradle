@@ -1,0 +1,9 @@
+include ':ClassLoader'
+include ':ASM'
+include ':APT'
+include ':AspectJ'
+include ':Javassist'
+include ':dexmaker'
+include ':MethodInterceptProxy'
+include ':app'
+rootProject.name = "Demo"

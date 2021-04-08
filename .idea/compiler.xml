@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="APT" target="1.7" />
+      <module name="ASM" target="1.7" />
+      <module name="AspectJ" target="1.7" />
+      <module name="Demo.app" target="1.8" />
+      <module name="Demo.APT" target="1.8" />
+      <module name="Demo.ASM" target="1.8" />
+      <module name="Demo.AspectJ" target="1.8" />
+      <module name="Demo.ClassLoader" target="1.8" />
+      <module name="Demo.Javassist" target="1.8" />
+      <module name="Demo.MethodInterceptProxy" target="1.8" />
+      <module name="dexmaker" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
